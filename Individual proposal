@@ -1,0 +1,23 @@
+Project proposal of
+Nadine Groffen (10336966)
+For the course: objects to data (21/9/2015)
+
+Research question and data set
+Question 1
+Which newspapers publish the most about which political party in the Interbellum in the Netherlands?
+Question 2
+Which newspapers publish the most about the NSB from 1931 till 1939?
+
+Methods and investigation
+To investigate both of these questions a dataset is required where all newspapers of the years 1919 till 1939 are stored. This data is provided by the Royal Library of the Netherlands. The first step is to research on the internet which political parties where active in the Netherlands between the First and Second World war, to know in which words and spelling the metadata can be applied. 
+
+The second is to make an overview of the papers that were published. Therefor metadata in JSON format can be used by downloading the file in Cygwin and then use formula’s that search and count (from Unix by Poets) words containing the query "ddd:publisher" and/or (+) the "ddd:spatial" (meaning: national or local newspaper). After this I can save the newspapers in a file. 
+
+By using names of the newspapers and the political parties it should be possible to search for a connection. By creating a script where the variable ‘query’ is stored with the value (=) of a newspaper I can search for the name of a “political party” within a newspaper after running the script in Cygwin and downloading the file one by one about a newspaper. For the second question I should replace the query to either “NSB” or “Nationaal Socialistische Beweging”.
+
+Results
+By making a summary statistic of the newspapers, political parties and the frequency of the interrelation between the two several conclusions could be made. First of all it is possible to see how much attention is paid to a political party in which newspaper. Is this attention positive, negative or does is just give an overview? This could shine a light if newspapers where objective or if they had a predilection for a party.
+
+Further the results could shine a light on which political parties might be more popular in  certain province. The search should then only contain provincial newspapers which are only published in one province like the Limburger Koerier.
+
+The last question could give an insight on the popularity of the national socialistic movement in certain provinces since 1931. Is this movement more mentioned in newspapers located in the south of the Netherlands (for example Limburg of Brabant) where nowadays the Partij van de Vrijheid gets the most votes? I’m not considering the NSB and the PVV as the same kind of party, but I do see a connection between their attitude against certain strangers. A restriction to this question will be that the dataset only contains newspapers until the outbreak of the war.
